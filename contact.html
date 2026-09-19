@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Contact Gregory Ugochukwu about web development, business websites, landing pages and website redesign projects."
+    >
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gregory Ugochukwu">
+    <meta name="theme-color" content="#2563eb">
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="Contact | Gregory Ugochukwu"
+    >
+
+    <meta
+        property="og:description"
+        content="Get in touch with Gregory Ugochukwu about your next website project."
+    >
+
+    <meta
+        property="og:site_name"
+        content="Gregory Ugochukwu"
+    >
+
+    <title>Contact | Gregory Ugochukwu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <a
+        class="skip-link"
+        href="#main-content"
+    >
+        Skip to main content
+    </a>
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a
+                class="site-logo"
+                href="index.html"
+                aria-label="Gregory Ugochukwu home"
+            >
+                <span class="logo-name">
+                    Gregory Ugochukwu
+                </span>
+
+                <span class="logo-role">
+                    Web Developer &amp; Digital Solutions
+                </span>
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="main-navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <nav
+                class="main-navigation"
+                id="main-navigation"
+                aria-label="Main navigation"
+            >
+
+                <a
+                    class="nav-link"
+                    href="index.html"
+                >
+                    Home
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="about.html"
+                >
+                    About
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="services.html"
+                >
+                    Services
+                </a>
+
+                <a
+                    class="nav-link"
+                    href="projects.html"
+                >
+                    Projects
+                </a>
+
+                <a
+                    class="nav-link active"
+                    href="contact.html"
+                    aria-current="page"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+         ===================================================== -->
+
+    <main id="main-content">
+
+
+        <!-- PAGE HERO -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <div class="page-hero-content reveal">
+
+                    <p class="eyebrow">
+                        Get In Touch
+                    </p>
+
+                    <h1>
+                        Let's talk about your website.
+                    </h1>
+
+                    <p>
+                        Have a project in mind or need help
+                        improving an existing website?
+                        Send me a message and I'll get back to you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+
+                    <!-- CONTACT FORM -->
+
+                    <div class="contact-form-wrapper card reveal">
+
+                        <div class="section-heading">
+
+                            <p class="eyebrow">
+                                Send a Message
+                            </p>
+
+                            <h2>
+                                Tell me about your project.
+                            </h2>
+
+                            <p>
+                                Fill in the form below and
+                                your message will be sent
+                                directly to my email.
+                            </p>
+
+                        </div>
+
+
+                        <!-- FORMSPREE FORM -->
+
+                        <form
+                            id="contact-form"
+                            action="https://formspree.io/f/xzezdzjr"
+                            method="POST"
+                            class="contact-form"
+                        >
+
+                            <input
+                                type="hidden"
+                                name="_subject"
+                                value="New Portfolio Website Inquiry"
+                            >
+
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Name
+                                </label>
+
+                                <input
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    autocomplete="name"
+                                    placeholder="Your name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email
+                                </label>
+
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    autocomplete="email"
+                                    placeholder="you@example.com"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="7"
+                                    placeholder="Tell me about your project..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <button
+                                id="contact-submit"
+                                class="button button-primary"
+                                type="submit"
+                            >
+                                <span class="button-text">
+                                    Send Message
+                                </span>
+                            </button>
+
+
+                            <p
+                                id="form-status"
+                                class="form-status"
+                                role="status"
+                                aria-live="polite"
+                            ></p>
+
+                        </form>
+
+                    </div>
+
+
+                    <!-- CONTACT INFORMATION -->
+
+                    <div class="contact-info reveal">
+
+                        <div class="section-heading">
+
+                            <p class="eyebrow">
+                                Contact Details
+                            </p>
+
+                            <h2>
+                                Other ways to reach me.
+                            </h2>
+
+                            <p>
+                                You can also contact me directly
+                                using the details below.
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-methods">
+
+
+                            <!-- EMAIL -->
+
+                            <a
+                                class="contact-method card"
+                                href="mailto:ugochukwugreg4@gmail.com"
+                            >
+
+                                <span class="contact-method-label">
+                                    Email
+                                </span>
+
+                                <span class="contact-method-value">
+                                    ugochukwugreg4@gmail.com
+                                </span>
+
+                            </a>
+
+
+                            <!-- WHATSAPP -->
+
+                            <div class="contact-method card">
+
+                                <span class="contact-method-label">
+                                    WhatsApp
+                                </span>
+
+                                <span class="contact-method-value">
+                                    Coming soon
+                                </span>
+
+                            </div>
+
+
+                            <!-- LINKEDIN -->
+
+                            <div class="contact-method card">
+
+                                <span class="contact-method-label">
+                                    LinkedIn
+                                </span>
+
+                                <span class="contact-method-value">
+                                    Coming soon
+                                </span>
+
+                            </div>
+
+
+                            <!-- GITHUB -->
+
+                            <div class="contact-method card">
+
+                                <span class="contact-method-label">
+                                    GitHub
+                                </span>
+
+                                <span class="contact-method-value">
+                                    Coming soon
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="cta-card reveal">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            Have a project in mind?
+                        </p>
+
+                        <h2>
+                            Let's build something useful.
+                        </h2>
+
+                        <p>
+                            Tell me what you need and
+                            I'll be happy to discuss it.
+                        </p>
+
+                    </div>
+
+                    <a
+                        class="button button-primary"
+                        href="mailto:ugochukwugreg4@gmail.com"
+                    >
+                        Email Me
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <strong>
+                    Gregory Ugochukwu
+                </strong>
+
+                <span>
+                    Web Developer &amp; Digital Solutions
+                </span>
+
+            </div>
+
+
+            <nav
+                class="footer-navigation"
+                aria-label="Footer navigation"
+            >
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy;
+                    <span class="current-year"></span>
+                    Gregory Ugochukwu.
+                    All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
